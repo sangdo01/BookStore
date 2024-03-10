@@ -4,6 +4,8 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 
+from django.shortcuts import render
+
 from .serializers import GroupSerializer, UserSerializer
 # Create your views here.
 
@@ -15,6 +17,8 @@ from .serializers import GroupSerializer, UserSerializer
 #     serializer_class = UserSerializer
 #     # permission_classes = [permissions.IsAuthenticated]
 
+def index(request):
+    return render(request, "index.html")
 
 class GroupViewSet(viewsets.ModelViewSet):
     """
