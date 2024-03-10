@@ -1,0 +1,54 @@
+:root {
+  --primapry-white-color: #fff;
+  --primapry-background-color: #6b1717;
+  --primapry-text-color: #646464;
+}
+
+body {
+    font-family: sans-serif, Helvetica, Arial;
+    /* font-size: 13px;
+    font-weight: 400; */
+}
+
+/* start banner */
+.header {
+  background-color: #A99CE2;
+  color: var(--primapry-text-color);
+  height: 61px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.header .top-banner p {
+    padding: 0px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* end banner */
+
+.topnav {
+  background-color: var(--primapry-white-color);
+  overflow: hidden;
+}
+
+.topnav nav {
+  padding: 14px 16px;
+}
+
+.topnav-logo {
+  height: 10px;
+  margin-bottom: 8px;
+}
+
+.main {
+  background-color: red;
+}
+
+.footer {
+  background-color: blueviolet;
+  text-align: center;
+}
